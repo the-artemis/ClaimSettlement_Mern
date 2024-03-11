@@ -16,7 +16,7 @@ const ClaimForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();        
-        fetch("http://localhost:5000/user/post/claim", {
+        fetch("https://claim-settlement-mern-backend.vercel.app/user/post/claim", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
