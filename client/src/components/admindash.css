@@ -1,0 +1,69 @@
+.footer {
+    position: fixed; /* Change position to fixed */
+    bottom: 0;
+    width: 100%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th,
+.table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+.table th {
+    background-color: #f8f9fa; /* Header background color */
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f3f3f3; /* Alternate row background color */
+}
+.sidebar {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+}
+.sidebar a {
+    color: #fff;
+}
+.main-content {
+    padding: 20px;
+}
+h1 {
+    color: #7d87f5; /* Heading color */
+    font-size: 24px; /* Heading font size */
+}
+.mt-4 {
+    color: #e0dede; /* Change text color to dark gray */
+}
+.main-content h1 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .main-content p {
+    font-size: 18px;
+  }
+  .footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0; /* Adjust padding as needed */
+  }
+  .container {
+    padding-bottom: 500px; /* Adjust based on the height of the footer */
+  }

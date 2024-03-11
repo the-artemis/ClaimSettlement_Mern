@@ -1,0 +1,42 @@
+/* ContactUsPage.css */
+.contact-us-page {
+    background-image: url('https://media.istockphoto.com/id/1367756031/vector/light-blue-watercolor-background-illustration.jpg?s=612x612&w=0&k=20&c=qiJl7j-2terwHd-1YJxiFIo1VJx6l6IsmoqlgeypQ7c='); /* Add your background image URL here */
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-form {
+    background-color: rgba(255, 255, 255, 0.8); /* Light transparent background color */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+/* ContactUsPage.css */
+
+.developer-details h2 {
+    font-weight: bold; /* Make the heading bold */
+    font-size: 24px; /* Increase the font size */
+    color: #333; /* Set the text color */
+}
+
+.developer-details p {
+    font-weight: bold; /* Make paragraphs bold */
+    font-size: 18px; /* Increase the font size */
+    color: #555; /* Set the text color */
+    margin-bottom: 10px; /* Add some bottom margin between paragraphs */
+}
+
+.developer-details a {
+    font-weight: bold; /* Make links bold */
+    color: #007bff; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.developer-details a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
