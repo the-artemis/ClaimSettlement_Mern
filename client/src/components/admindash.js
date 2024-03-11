@@ -9,7 +9,7 @@ const AdminDashboard = () => {
 
     const handleApproval = async (claimId) => {
         try {
-            const response = await fetch(`http://localhost:5000/user/update/claimstatus/${claimId}`, {
+            const response = await fetch(`https://claim-settlement-mern-backend.vercel.app/user/update/claimstatus/${claimId}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
@@ -35,7 +35,7 @@ const AdminDashboard = () => {
     
     const handleRejection = async (claimId) => {
         try {
-            const response = await fetch(`http://localhost:5000/user/update/claimstatus/${claimId}`, {
+            const response = await fetch(`https://claim-settlement-mern-backend.vercel.app/user/update/claimstatus/${claimId}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'
@@ -69,7 +69,7 @@ const AdminDashboard = () => {
 
     const fetchPolicies = async () => {
         try {
-            const response = await fetch('http://localhost:5000/policy/get');
+            const response = await fetch('https://claim-settlement-mern-backend.vercel.app/policy/get');
             const data = await response.json();
             setPolicies(data);
         } catch (error) {
@@ -79,7 +79,7 @@ const AdminDashboard = () => {
 
     const fetchClaims = async () => {
         try {
-            const response = await fetch('http://localhost:5000/user/get/claim');
+            const response = await fetch('https://claim-settlement-mern-backend.vercel.app/user/get/claim');
             const data = await response.json();
             setClaims(data);
         } catch (error) {
