@@ -14,7 +14,7 @@ const app = express();
 app.use(cors(
     {
         origin: ["https://claim-settlement-mern-backend.vercel.app/"],
-        methods: ["POST", "GET"],
+        methods: ["POST", "GET", "PUT"],
         credentials: true
     }
 ));
