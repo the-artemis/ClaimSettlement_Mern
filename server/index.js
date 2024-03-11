@@ -11,7 +11,13 @@ import policyRoutes from './routes/policy.js';
 import loginRoutes from './routes/login.js';
 const app = express();
 
-
+app.use(cors(
+    {
+        origin: ["https://claim-settlement-mern-backend.vercel.app/"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 
 // Use the router
 
@@ -20,7 +26,7 @@ const app = express();
 // app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-app.use(cors());
+// app.use(cors());
 
 const collectDefaultMetrics = client.collectDefaultMetrics;
 collectDefaultMetrics({register:client.register});
