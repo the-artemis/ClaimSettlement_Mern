@@ -110,7 +110,7 @@ const LoginPage = () => {
     e.preventDefault();
     console.log(username, email, password);
 
-    fetch("http://localhost:5000/login/post/login", {
+    fetch("https://claim-settlement-mern-backend.vercel.app/login/post/login", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
