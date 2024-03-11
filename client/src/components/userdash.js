@@ -34,7 +34,7 @@ const Dashboard = () => {
 
     const fetchUserPolicies = async (username) => {
         try {
-            const response = await fetch(`http://localhost:5000/login/get/userpol/${username}`);
+            const response = await fetch(`https://claim-settlement-mern-backend.vercel.app/login/get/userpol/${username}`);
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
@@ -47,7 +47,7 @@ const Dashboard = () => {
 
     const fetchUserClaims = async (username) => {
         try {
-            const response = await fetch(`http://localhost:5000/login/get/userclaim/${username}`);
+            const response = await fetch(`https://claim-settlement-mern-backend.vercel.app/login/get/userclaim/${username}`);
             if (!response.ok) {
                 throw new Error('Network response was not ok');
             }
