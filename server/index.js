@@ -13,7 +13,7 @@ const app = express();
 
 app.use(cors(
     {
-        origin: ["https://claim-settlement-mern-backend.vercel.app/"],
+        origin: ["https://claimsettlement.netlify.app"],
         methods: ["POST", "GET", "PUT"],
         credentials: true
     }
