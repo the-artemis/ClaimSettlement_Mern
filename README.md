@@ -41,6 +41,15 @@ This project is designed to facilitate the claim settlement process, allowing fr
   - Update claim status
   - View claim history
 
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
 ## Installation
 
 ```bash
@@ -73,10 +82,3 @@ npm install
 npm start
 
 
-## Contributing
-
-Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
