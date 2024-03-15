@@ -43,18 +43,18 @@ This project is designed to facilitate the claim settlement process, allowing fr
 
 ## Installation
 
+```bash
 # Clone the repository
 git clone <repository_url>
 
 # Navigate to the project directory
 cd claim-settlement-project
 
-
 # Set up environment variables
 # Create a .env file in the root directory
 # Define variables such as MongoDB connection string, JWT secret, etc.
 
-# Navigate to the servet directory
+# Navigate to the server directory
 cd server
 
 # Install dependencies
